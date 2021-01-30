@@ -8,6 +8,18 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+body .btn-primary {
+  background-color: #f8df1f;
+  border-color: #f8df1f;
+  color: #050500;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+body .btn-primary:hover {
+  background-color: #ee252f;
+  border-color: #ee252f;
+  color: #050500;
+}
 .heading-span {
   text-transform: uppercase;
   color: #ee252f;

@@ -1,7 +1,21 @@
 @import 'mixins';
 
 body {
-    font-family: @primary-font; 
+    font-family: @primary-font;
+
+    .btn-primary {
+        background-color: @yellow;
+        border-color: @yellow;
+        color: @link-black;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        &:hover {
+            background-color: @red;
+            border-color: @red;
+            color: @link-black;
+        }
+    }
+            
 }
 
 .heading-span {
@@ -26,7 +40,6 @@ nav {
     }
 
     a {
-        
         color: @link-black;
         font-size: 18px; 
         font-weight: 500;
