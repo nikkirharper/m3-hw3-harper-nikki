@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  height: 65px;
+  background-color: #f8df1f;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+nav li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 40px;
+}
+nav a {
+  color: #050500;
+  font-size: 18px;
+  font-weight: 500;
+}

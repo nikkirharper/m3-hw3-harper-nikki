@@ -1,1 +1,28 @@
-@import 'mixins'; 
+@import 'mixins';
+
+body {
+    font-family: @primary-font; 
+}
+
+nav {
+    height: 65px; 
+    background-color: @yellow;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        padding-right: 40px;
+    }
+
+    a {
+        color: @link-black;
+        font-size: 18px; 
+        font-weight: 500; 
+    }
+}
