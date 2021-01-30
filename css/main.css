@@ -8,6 +8,10 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.heading-span {
+  text-transform: uppercase;
+  color: #ee252f;
+}
 nav {
   height: 65px;
   background-color: #f8df1f;
@@ -26,4 +30,27 @@ nav a {
   color: #050500;
   font-size: 18px;
   font-weight: 500;
+}
+nav a:hover {
+  text-decoration: none;
+  color: #050500;
+}
+header {
+  position: relative;
+  text-align: center;
+  color: #3B3838;
+}
+header .banner {
+  position: relative;
+  width: 100%;
+}
+header .centered {
+  position: absolute;
+  width: 30%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header h1 {
+  display: none;
 }
