@@ -5,3 +5,6 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
+.border-top {
+  border-top: 10px solid #f8df1f;
+}
