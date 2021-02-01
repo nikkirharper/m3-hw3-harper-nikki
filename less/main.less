@@ -73,7 +73,7 @@ header {
     height: 290px; 
     width: 100%; 
     text-align: center; 
-    color: #3B3838;
+    color: #383838;
 
     .banner {
         position: relative;
@@ -89,10 +89,14 @@ header {
 
     .centered {
         position: absolute;
-        width: 85%;
+        width: 80%;
+        max-width: 465px;
         top: 30%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
+        @media (min-width: 576px) {
+            width: 55%; 
+        }
     }
 
     .float {
@@ -115,7 +119,7 @@ header {
 }
 
 .container {
-    padding: 50px 0;
+    padding: 50px 15px;
     width: 100%; 
     h2 {
         font-size: 30px; 
@@ -125,9 +129,14 @@ header {
     }
 
     .width {
-        width: 100%; 
+        width: 60%;
+        max-width: 300px; 
         padding-left: 50px; 
-        padding-top: 50px;   
+        padding-top: 50px;
+        @media (min-width: 576px) {
+            width: 110%;
+            padding-left: 10px;
+        }
     }
 }
 
@@ -137,8 +146,12 @@ footer {
     justify-content: center;
     .border-top();
     img {
-        width: 85%;
+        width: 80%;
+        max-width: 465px;
         padding: 20px;
+        @media (min-width: 576px) {
+            width: 55%; 
+        }
     }
 }
 
