@@ -8,8 +8,22 @@
 .border-top {
   border-top: 10px solid #f8df1f;
 }
+.body-copy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #050500;
+}
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #050500;
+}
+body .heading-span {
+  text-transform: uppercase;
+  color: #ee252f;
+}
+body .lowercase {
+  text-transform: lowercase;
 }
 body .btn-primary {
   background-color: #f8df1f;
@@ -26,15 +40,8 @@ body .btn-primary:hover {
   border-color: #ee252f;
   color: #050500;
 }
-.heading-span {
-  text-transform: uppercase;
-  color: #ee252f;
-}
-.lowercase {
-  text-transform: lowercase;
-}
 nav {
-  height: 65px;
+  height: 85px;
   background-color: #f8df1f;
   padding-top: 1rem;
   padding-bottom: .5rem;
@@ -70,14 +77,10 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 290px;
+  height: 325px;
   width: 100%;
   text-align: center;
   color: #383838;
-}
-header .banner {
-  position: relative;
-  width: 100%;
 }
 header .color-overlay {
   width: 100%;
@@ -88,7 +91,7 @@ header .color-overlay {
 header .centered {
   position: absolute;
   width: 80%;
-  max-width: 465px;
+  max-width: 445px;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -124,7 +127,7 @@ header h1 {
 }
 .container .width {
   width: 60%;
-  max-width: 300px;
+  max-width: 260px;
   padding-left: 50px;
   padding-top: 50px;
 }

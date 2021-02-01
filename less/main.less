@@ -1,7 +1,16 @@
 @import 'mixins';
 
 body {
-    font-family: @primary-font;
+    .body-copy();
+
+    .heading-span {
+        text-transform: uppercase;
+        color: @red; 
+    }
+
+    .lowercase {
+        text-transform: lowercase;
+    }
 
     .btn-primary {
         background-color: @yellow;
@@ -17,21 +26,11 @@ body {
             border-color: @red;
             color: @link-black;
         }
-    }
-            
-}
-
-.heading-span {
-    text-transform: uppercase;
-    color: @red; 
-}
-
-.lowercase {
-    text-transform: lowercase;
+    }          
 }
 
 nav {
-    height: 65px; 
+    height: 85px; 
     background-color: @yellow;
     padding-top: 1rem;
     padding-bottom: .5rem;
@@ -61,7 +60,7 @@ nav {
         @media (min-width: 576px) {
                 font-size: 18px;
             }
-    }
+    }   
 }
 
 header {
@@ -70,15 +69,10 @@ header {
     background-position: center;
     background-size: cover; 
     position: relative;
-    height: 290px; 
+    height: 325px; 
     width: 100%; 
     text-align: center; 
     color: #383838;
-
-    .banner {
-        position: relative;
-        width: 100%; 
-    }
 
     .color-overlay {
         width: 100%; 
@@ -90,7 +84,7 @@ header {
     .centered {
         position: absolute;
         width: 80%;
-        max-width: 465px;
+        max-width: 445px;
         top: 30%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
@@ -111,7 +105,6 @@ header {
     }
 }
 
-
 .light-grey-bg {
     background-color: @light-grey;
     width: 100%; 
@@ -130,7 +123,7 @@ header {
 
     .width {
         width: 60%;
-        max-width: 300px; 
+        max-width: 260px; 
         padding-left: 50px; 
         padding-top: 50px;
         @media (min-width: 576px) {
